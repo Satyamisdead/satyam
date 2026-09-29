@@ -18,6 +18,10 @@ export const siteConfig = {
     "Freelancer India", 
     "Mumbai Developer", 
     "Portfolio", 
+    "Golewah",
+    "School Management SaaS",
+    "SaaS Developer",
+    "Cameroon SaaS",
     "StockDox", 
     "Curbi", 
     "Flat Rate Bookkeeping"
@@ -38,67 +42,91 @@ export const siteConfig = {
     heading: "Building Ideas Into Reality.",
     subheading: [
       "Full Stack Developer",
+      "SaaS Architect",
       "Mobile App Developer",
       "Web Developer",
       "Cyber Security Consultant"
     ],
-    description: "I help startups and businesses transform ideas into powerful digital products including Mobile Apps, Websites, Admin Panels, APIs and Security Solutions.",
+    description: "I help startups and enterprises transform ideas into powerful, battle-tested digital products — including Multi-tenant SaaS Systems, Mobile Apps, High-scale Web Apps, and Hardened Security Solutions.",
     avatarUrl: "/satyam.jpg"
   },
 
   about: {
     name: "Satyam Tiwari",
-    role: "Founder | Full Stack Developer",
+    role: "Founder | Full Stack & SaaS Architect",
     experienceYears: "7+",
-    description: "I specialize in creating custom high-performance applications, securing digital infrastructures, and helping clients launch modern web and mobile apps. With over 7 years in the software industry, I blend development and cyber security to build products that are not only scalable and beautiful, but also robustly secure from day one.",
+    description: "I specialize in building custom high-performance applications, multi-tenant SaaS platforms (like Golewah in Cameroon), securing enterprise infrastructures, and launching modern web & mobile apps. With over 7 years in the software industry, I blend full-stack engineering and cybersecurity to build scalable, beautiful products that are resilient from day one.",
     skillsList: [
       "React",
       "React Native",
       "Next.js",
       "TypeScript",
       "Node.js",
+      "PostgreSQL",
+      "Prisma",
+      "SaaS Multi-tenancy",
       "Firebase",
       "Android",
-      "Flutter",
-      "API Development",
       "Cyber Security",
       "Cloud Deployment"
     ],
     counters: [
-      { value: 150, suffix: "+", label: "Projects Delivered" },
-      { value: 30, suffix: "+", label: "International Clients" },
+      { value: 160, suffix: "+", label: "Projects Delivered" },
+      { value: 35, suffix: "+", label: "International Clients" },
       { value: 7, suffix: "+", label: "Years Experience" }
     ]
   },
 
   projects: [
     {
+      title: "Golewah",
+      tagline: "School Management SaaS • Cameroon",
+      url: "https://golewah.com",
+      description: "All-in-one multi-tenant School Management SaaS engineered for educational institutions across Cameroon (Central Africa). Manages student enrollment, fee collections, real-time attendance, automated academic report cards, and role-based portals for school administrators, teachers, and parents.",
+      tech: ["Next.js", "TypeScript", "TailwindCSS", "Node.js", "PostgreSQL", "Prisma", "SaaS"],
+      status: "live",
+      featured: true,
+      badge: "Flagship SaaS • Cameroon"
+    },
+    {
       title: "StockDox",
+      tagline: "FinTech & AI Market Platform",
       url: "https://stockdox.vercel.app",
       description: "Real-time US Stocks and Crypto Market platform featuring AI-powered market insights, watchlists, finance news and portfolio tracking.",
       tech: ["React", "TypeScript", "TailwindCSS", "Finnhub API", "CoinGecko API"],
-      status: "live"
+      status: "live",
+      featured: false,
+      badge: "FinTech App"
     },
     {
       title: "Curbi",
+      tagline: "Smart Parking & Geolocation Platform",
       url: "https://curbi.tech",
       description: "Smart Parking Finder helping users locate available street parking with maps, location services and navigation.",
       tech: ["Next.js", "Google Maps", "Firebase", "TailwindCSS"],
-      status: "live"
+      status: "live",
+      featured: false,
+      badge: "GeoTech"
     },
     {
       title: "Flat Rate Bookkeeping",
+      tagline: "US Accounting & Automation Platform",
       url: "https://flatratebookkeeping.us",
       description: "Professional bookkeeping platform for US businesses with modern UI, CRM integration and financial workflows.",
       tech: ["Next.js", "TailwindCSS", "React Flow", "Framer Motion"],
-      status: "live"
+      status: "live",
+      featured: false,
+      badge: "Enterprise SaaS"
     },
     {
       title: "BigMo Classified",
+      tagline: "Swipe-to-Trade Mobile Marketplace",
       url: "#",
       description: "Modern marketplace inspired by Tinder swipe experience for buying and selling. Swipe right to like, left to skip.",
       tech: ["React Native", "Expo", "Node.js", "Supabase"],
-      status: "coming_soon"
+      status: "coming_soon",
+      featured: false,
+      badge: "Mobile App"
     }
   ],
 
@@ -134,8 +162,8 @@ export const siteConfig = {
 
   skills: {
     frontend: ["React", "Next.js", "React Native", "TypeScript", "TailwindCSS", "Flutter"],
-    backend: ["Node.js", "Firebase", "MongoDB", "Supabase", "Cloud Functions", "REST APIs"],
-    toolsAndSecurity: ["Cyber Security", "Git", "Docker", "Java", "Android"]
+    backend: ["Node.js", "PostgreSQL", "Prisma", "SaaS Multi-tenancy", "Firebase", "MongoDB", "Supabase", "REST APIs"],
+    toolsAndSecurity: ["Cyber Security", "Penetration Testing", "Git", "Docker", "Java", "Android"]
   },
 
   testimonials: [

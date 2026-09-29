@@ -72,6 +72,10 @@ I help startups and businesses transform ideas into powerful, highly secure digi
 
 ### 📁 Featured Projects
 
+#### 🏫 [Golewah](https://golewah.com) *(Flagship SaaS • Cameroon 🇨🇲)*
+- **Description**: Enterprise-grade multi-tenant School Management SaaS platform engineered for educational institutions across Cameroon (Central Africa). Features student enrollment, automated fee collection, academic grading, automated report card generation, and comprehensive role-based portals for school administrators, teachers, and parents.
+- **Tech Stack**: Next.js, TypeScript, TailwindCSS, Node.js, PostgreSQL, Prisma, SaaS Multi-Tenancy.
+
 #### 📈 [StockDox](https://stockdox.vercel.app)
 - **Description**: Real-time US Stocks and Crypto Market tracking platform featuring AI-powered market insights, watchlists, financial news, and portfolio tracking.
 - **Tech Stack**: React, TypeScript, TailwindCSS, Finnhub API, CoinGecko API.

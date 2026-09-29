@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     canonical: siteConfig.url,
   },
   openGraph: {
-    title: "Satyam Tiwari | Full Stack Developer & Cyber Security Consultant",
-    description: "Building modern web applications, mobile apps, and secure digital experiences for startups and businesses worldwide.",
+    title: "Satyam Tiwari | Full Stack Developer, SaaS Architect & Cyber Security Consultant",
+    description: "Building modern SaaS platforms (Golewah), FinTech web apps (StockDox), mobile applications, and hardened cybersecurity systems for startups worldwide.",
     url: siteConfig.url,
     siteName: siteConfig.name,
     locale: "en_US",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Satyam Tiwari | Developer Portfolio",
-    description: "Explore my portfolio featuring StockDox, Curbi, Flat Rate Bookkeeping, cybersecurity solutions, and modern web & mobile applications.",
+    description: "Explore my portfolio featuring Golewah SaaS, StockDox, Curbi, Flat Rate Bookkeeping, cybersecurity solutions, and modern web & mobile applications.",
     images: [siteConfig.ogImage],
   },
 };
@@ -76,7 +76,7 @@ export default function RootLayout({
         "@type": "Person",
         "@id": `${siteConfig.url}/#person`,
         "name": siteConfig.name,
-        "jobTitle": "Full Stack Developer & Cyber Security Consultant",
+        "jobTitle": "Full Stack Developer, SaaS Architect & Cyber Security Consultant",
         "url": siteConfig.url,
         "image": siteConfig.hero.avatarUrl,
         "sameAs": [
@@ -89,9 +89,11 @@ export default function RootLayout({
           "Next.js",
           "TypeScript",
           "Node.js",
+          "PostgreSQL",
+          "Prisma",
+          "SaaS Multi-tenancy",
           "Firebase",
           "Android",
-          "Flutter",
           "Cyber Security",
           "Penetration Testing",
           "API Development",
